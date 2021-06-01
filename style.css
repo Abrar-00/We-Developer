@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  background-color: rgb(245, 241, 241);
+}
+title {
+  color: teal;
+  font-weight: bold;
+}
+#navbar {
+  overflow: hidden;
+
+  background-color: white;
+  padding: 50px 10px; /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  position: fixed; /* Sticky/fixed navbar */
+  width: 100%;
+  height: 10px;
+  top: 0; /* At the top */
+  z-index: 99;
+}
+
+/* Style the navbar links */
+#navbar a {
+  color: black;
+  text-align: center;
+  margin: -0.3rem 0.5rem;
+  padding: 0px 12px;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 15px;
+  border-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#header-content {
+  height: 51rem;
+  border-radius: 0px 0px 50px 0px;
+  background-color: white;
+}
+.content {
+  margin: 13rem 6.5rem;
+  text-align: center;
+}
+.content h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: teal;
+}
+.content p {
+  margin: 2rem 0rem;
+}
+.content-custom {
+  color: rgb(107, 106, 106);
+}
+.header-buttons a {
+  text-decoration: none;
+  background-color: teal;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 15px 15px 15px 15px;
+}
+#about-btn {
+  background-color: rgb(107, 106, 106);
+}
+.detail {
+  display: flex;
+  margin: 5rem 2rem;
+  gap: 5rem;
+}
+.detail p {
+  border-left: 1px black solid;
+  border-bottom: 1px black solid;
+  padding: 0rem 0.2rem;
+}
+.point {
+  font-size: 12px;
+  font-weight: 600;
+}
+#header-image {
+  background-image: url(./img/karel-vokral-Vc3_2lB9GgM-unsplash.jpg);
+  width: 50%;
+  height: 48rem;
+  background-position: center;
+  background-size: cover;
+}
+.modern-apartment-h {
+  text-align: center;
+  padding: 4rem 0rem;
+}
+.modern-apartment-h h1 {
+  color: teal;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.modern-apartment-detail {
+  font-size: 1.3rem;
+  font-weight: 200;
+  word-spacing: 8px;
+}
+.modern-apartment-detail a {
+  margin: 0rem 1rem;
+  text-decoration: none;
+  font-size: 0.7rem;
+  word-spacing: normal;
+  background-color: teal;
+  color: white;
+  padding: 0.9rem 1.9rem;
+  border-radius: 15px 15px 15px 15px;
+}
+.icon-part {
+  padding: 4rem 8rem;
+}
+.col-md-3 {
+  margin: 3rem 1rem;
+  width: 7rem;
+  height: 7rem;
+}
+/* #modern-img {
+  background-image: url(./img/r-architecture-W6YhRmR8nuA-unsplash.jpg);
+  width: 150px;
+  height: 200px;
+  background-size: cover;
+} */
+#image-1-row {
+  margin: -4rem 4rem;
+}
+.image-1 img {
+  width: 13rem;
+  height: 6%;
+  padding: 1rem 1rem;
+  background-size: cover;
+  border-radius: 0px 30px 0px 30px;
+}
+.image-2 img {
+  width: 13rem;
+  height: 6%;
+  padding: 1rem 1rem;
+  background-size: cover;
+  border-radius: 0px 30px 0px 30px;
+}
+.icon-part {
+  /* background-color: white; */
+  margin: 6rem 0rem;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+.icon {
+  width: 16.5rem;
+  height: 12rem;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 1.2rem 1.9rem;
+}
+.logo {
+  font-size: 3.5rem;
+  color: teal;
+}
+.icon-para {
+  text-decoration: underline white;
+  color: black;
+}
+.best-location-part {
+  background-color: white;
+  width: 100%;
+  margin-left: 20rem;
+  padding: 3rem 0rem;
+}
+.col-md-6 img {
+  background-size: cover;
+  background-image: url(./img/m4x1mvs-8WWqg9mcfmM-unsplash.jpg);
+  width: 29rem;
+  height: 34rem;
+  margin: 2rem -12rem;
+}
+.contant {
+  margin-left: -20rem;
+}
+.contant .location {
+  margin: 1rem 13rem;
+}
+.contant h1 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+.in-london {
+  color: teal;
+}
+.content-para {
+  font-size: 1.3rem;
+  margin: 2rem 0rem;
+}
+.tick-links {
+  margin-left: 10rem;
+}
+.tick-links i {
+  color: rgb(31, 170, 31);
+}
+#best-location-btn {
+  background-color: teal;
+  color: white;
+  text-decoration: none;
+  padding: 0.7rem 2.5rem;
+  margin-left: 2.5rem;
+  border-radius: 10px 10px 10px 10px;
+}
+.carousel {
+  width: 70rem;
+  height: 70%;
+  margin: 3rem 7.5rem;
+}
+.apartment {
+  text-align: center;
+  margin: 6rem 0rem;
+}
+.apartment h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.information {
+  display: flex;
+}
+.information p {
+  margin: 0rem 7rem;
+  text-align: center;
+}
+.con-line {
+  margin: 0rem 12rem;
+  padding: 6rem 6rem;
+  /* text-align: center; */
+}
+.end-line {
+  text-align: center;
+}
