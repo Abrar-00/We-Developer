@@ -11,6 +11,14 @@ title {
   color: teal;
   font-weight: bold;
 }
+.custom-logo {
+  color: black;
+  padding-right: 33rem;
+  color: goldenrod;
+}
+.fa-wikipedia-w {
+  font-weight: 700;
+}
 #navbar {
   overflow: hidden;
 
@@ -27,7 +35,9 @@ title {
 /* Style the navbar links */
 #navbar a {
   color: black;
-  text-align: center;
+  font-weight: bold;
+  float: right;
+  /* text-align: right; */
   margin: -0.3rem 0.5rem;
   padding: 0px 12px;
   text-decoration: none;
@@ -35,6 +45,9 @@ title {
   line-height: 15px;
   border-radius: 4px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#navbar a:hover {
+  font-size: 1.1rem;
 }
 #header-content {
   height: 51rem;
